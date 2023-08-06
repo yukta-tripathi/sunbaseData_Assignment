@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Delete Customer</title>
+</head>
+<body>
+    <h1>Delete Customer</h1>
+    <p>Are you sure you want to delete this customer?</p>
+    <form method="post" action="/delete-customer/{uuid}">
+        <input type="submit" value="Delete">
+    </form>
+</body>
+</html>
